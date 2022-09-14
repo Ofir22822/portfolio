@@ -3,7 +3,7 @@ var projects;
 $(document).ready(function () {
 
     //make project list for main page
-    $.getJSON("data3.json", function (json) {
+    $.getJSON("data.json", function (json) {
         projects = json.projects;   //project array from json file
 
         $.each(projects, function (project_index, project_i) {  //for each project
