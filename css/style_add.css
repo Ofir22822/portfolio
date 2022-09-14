@@ -1,0 +1,91 @@
+.p-one{
+    display:inline-block;
+    width:100%;
+    margin:5% auto;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    padding:1em;
+    line-height:1.5em;
+    background:rgba(252, 254, 230, 0.5);
+  }
+#one {
+    border:solid 5px rgb(0, 0, 0);
+  }
+
+.cat-masthead{
+    background-image: url("../assets/img/cat12.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px;
+}
+
+.btn-muted {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  }
+  .btn-dark:hover {
+    color: #fff;
+    background-color: #1c1f23;
+    border-color: #1a1e21;
+  }
+  .btn-check:focus + .btn-dark, .btn-dark:focus {
+    color: #fff;
+    background-color: #1c1f23;
+    border-color: #1a1e21;
+    box-shadow: 0 0 0 0.25rem rgba(66, 70, 73, 0.5);
+  }
+
+  .btn-light{
+      background-color: rgba(255, 255, 255, 0.75);
+      border-color: rgba(255, 255, 255, 0.75);
+      border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  }
+
+  .carousel-caption h5{
+    margin: 0px;
+  }
+
+  .caption-content{
+    background:rgba(252, 254, 230, 0.6);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    padding: 1rem;
+    direction: rtl;
+  }
+
+  .caption-content .badge{
+    font-weight: normal;
+  }
+
+  .border-right{
+    border: 0px;
+  }
+
+.modal-body hr{
+  margin: 1rem 0px;
+}
+
+#project_info td:first-child{
+  width: 30%;
+}
+
+#project_info .badge{
+  font-size: 0.85em;
+}
+
+  @media (min-width: 768px){
+    .border-right{
+      border-left: 1px solid #E6E2DE;
+    }
+  }
+
+  .more-info{
+    opacity: 0;
+    transition: 0.25s ease-in-out;
+  }
+
+ .portfolio-item:hover .more-info{
+  opacity: 1;
+
+  }

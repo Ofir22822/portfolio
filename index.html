@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>אופיר רחמים</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+    <!-- Simple line icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
+        rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+        rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/style_add.css" rel="stylesheet" />
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="js/script_add.js"></script>
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand"><a href="#page-top">Start Bootstrap</a></li>
+            <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
+            <li class="sidebar-nav-item"><a href="#about">About</a></li>
+            <li class="sidebar-nav-item"><a href="#services">Services</a></li>
+            <li class="sidebar-nav-item"><a href="#portfolio">Portfolio</a></li>
+            <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header-->
+    <header class="masthead d-flex align-items-center">
+        <div class="container px-4 px-lg-5 text-center">
+            <div class="row">
+                <div class="col-8 col-sm" style="border: 0px solid black ;">
+                    <h1 class="mb-1">אופיר רחמים</h1>
+                    <h2 class="mb-5" dir="rtl">תיק עבודות</h2>
+                    <div class="row d-none">
+                        <div class="col-8">
+                            <p id='one' class="p-one d-none">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book. It has
+                                survived not only five centuries, but also the leap into electronic typesetting,
+                                remaining essentially unchanged. It was popularised in the 1960s with the release of
+                                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </p>
+                        </div>
+                        <div class="col-sm-4 d-lg-none cat-masthead" style="border:0px solid black"></div>
+                    </div>
+                    <ul class="list-inline mb-5">
+                        <li class="list-inline-item d-none">
+                            <a class="social-link rounded-circle text-white mr-3" href="https://github.com/Ofir22822"><i
+                                    class="icon-social-linkedin"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="social-link rounded-circle text-white mr-3" href="mailto:ofir22822@gmail.com"><i
+                                    class="icon-envelope"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="social-link rounded-circle text-white" target="_blank" href="https://github.com/Ofir22822"><i
+                                    class="icon-social-github"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            &nbsp;&nbsp;&nbsp;
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-light btn-xl btn-big" href="#portfolio">פרוייקטים</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-4 cat-masthead" style="border:0px solid black">&nbsp;</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio-->
+    <section class="content-section bg-light" id="portfolio">
+        <div class="container px-4 px-lg-5">
+            <div class="content-section-heading text-center">
+                <h3 class="text-primary mb-0">תיק עבודות</h3>
+                <h2 class="mb-5">פרוייקטים</h2>
+            </div>
+            <div class="row gx-0" id="project_list">
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio modal-->
+    <div class="modal fade" dir="rtl" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-sm" role="document">
+            <div class="modal-content" style="height: fit-content;">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="project_name">project_name</h3>
+                    <button type="button" class="btn-close m-0" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="h-100 m-0" dir="rtl">
+                        <div class="row w-100 m-0">
+                            <div class="col-7 text-right">
+                                <div id="project_desc" class="mb-3">
+                                    project_desc
+                                </div>
+                                <div class="d-flex justify-content-center ">
+                                    <a id="project_github" target="_blank" class="btn btn-sm btn-secondary" href="">קוד מקור - github</a>
+                                </div>
+                            </div>
+                            <div class="col-5 p-0">
+                                <div class="table-wrapper">
+                                    <div class="table-inner">
+                                        <table class="table text-center">
+                                            <tbody id="project_info">
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="row justify-content-center">
+                            <div class="d-flex justify-content-center"
+                                style="width: 100%;height: 100%; border: 0px solid black; overflow: hidden;">
+                                <img src="img/img (1).jpg" class="d-none" style="object-fit: cover;overflow: hidden;"
+                                    alt="Responsive Image" />
+
+                                <div id="carouselExampleControls" class="carousel carousel-dark slide float-start"
+                                    data-ride="carousel" data-interval="false" role="listbox">
+                                    <div class="carousel-inner" style="width: 100%;">
+
+                                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                                            data-slide="next">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                                            data-slide="prev">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+
+                                    </div>
+                                    <ol class="carousel-indicators">
+                                    </ol>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About-->
+    <section class="content-section" id="about">
+        <div class="container px-4 px-lg-5 text-center">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-10">
+                    <h2>אודות</h2>
+                    <p class="lead mb-5" dir="rtl">
+                        שלום, אני אופיר רחמים 🙂
+                        <br/>
+                        בוגרת תואר ראשון בהנדסת תוכנה. הפרויקים הבאים הם פרויקטים שעבדתי עליהם במהלך הלימודים.
+                        <br/>
+                        מחפשת משרה בתחום פיתוח web או פיתוח תוכנה.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="footer text-center bg-primary text-white">
+        <div class="container px-4 px-lg-5">
+            <p class="small mb-0">Copyright &copy; 2022</p>
+        </div>
+    </footer>
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

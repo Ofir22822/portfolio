@@ -1,0 +1,72 @@
+{
+    "projects": [
+        {
+        "id":1,
+        "name": "תוכנה לזיהוי בין טקסט פרסומת לחוות דעת",
+        "desc":"מטרת הפרויקט הייתה לזהות אם ביקורות באינטרנט הם פרסומות או חוות דעת אמיתיות. <br>התוכנה מנתחת טקסל לפי 2 סוגים: מילון וסנטימט. <br>ובעזרת הנתונים של הניתוח ייקבע אם זה פרסומת או חוות דעת.",
+        "imgs": [
+            "final/img (1).jpg", "final/img (2).jpg", "final/img (3).jpg"
+            ]
+        ,
+        "imgs_desc": [
+            "ראשי", "תוצאות", "הגדרות"
+            ],
+        "client":["Java", "JavaFX"],
+        "server":[],
+        "db":["mySQL"],
+        "environment":["eclipse", "MySQL Workbench"],
+        "github":["https://github.com/Ofir22822/FinalProject"]
+        },
+        {
+            "id":2,
+            "name": "אתר לניהול משימות",
+            "desc":"לכל משתמש באתר יש אפשרות ליצור ולערוך משימות, למיין לפי עדיפות ולסמן משימות שסויימו.<br/>בנוסף יש תצוגה בצד של משימות להיום ולשבוע הקרוב.",
+            "imgs": [
+                "web/img (1).png", "web/img (2).png", "web/img (3).png", "web/img (4).png"
+                ]
+            ,
+            "imgs_desc": [
+                "ראשי", "תפריט משימות", "הוספת משימה", "עדכון פרטי משתמש"
+                ],
+            "client":["HTML", "CSS", "Bootstrap", "jQuery"],
+            "server":["ASP.NET"],
+            "db":["Microsoft SQL Server"],
+            "environment":["Visual Studio"],
+            "github":["https://github.com/Ofir22822/taskmanagement"]
+            },
+            {
+                "id":3,
+                "name": "תוכנת ספרייה",
+                "desc":"תוכנה לניהול מינויים בספרייה, השאלות ספרים, ומידע על הספרים.<br/>חיבור לשרת שמעביר את כל במידע לתוכנה.",
+                "imgs": [
+                    "shitot/img (1).png", "shitot/img (2).png", "shitot/img (3).png", "shitot/img (4).png", "shitot/img (5).png", "shitot/img (6).png", "shitot/img (7).png", "shitot/img (8).png", "shitot/img (9).png"
+                    ]
+                ,
+                "imgs_desc": [
+                    "ראשי", "תפריט מנוי בספרייה", "תפריט ספרן", "חיפוש ספר", "פרטי ספר", "הוספת ספר", "הוספת מנוי", "השאלת ספר למנוי", "שרת"
+                    ],
+                "client":["Java", "JavaFX"],
+                "server":[],
+                "db":["MySQL"],
+                "environment":["eclipse", "MySQL Workbench"],
+                "github":["https://github.com/NivCohen90/LibraryProject"]
+                }
+    ,{
+                "id":4,
+                "name": "אתר קניות",
+                "desc":"שימוש במודל שרת לקוח. צד לקוח בנוי ב-html,css. צד שרת node.js.<br />הרשמה של משתמש בעזרת אישור במייל, והצפנה של הסיסמא במסד הנתונים.<br />שליחת קישור מוצפן לשחזור סיסמא.<br />שימוש ב-API reCHAPCHA.",
+                "imgs": [
+                    "clientserver/img (1).png", "clientserver/img (2).png", "clientserver/img (3).png", "clientserver/img (4).png"
+                    ]
+                ,
+                "imgs_desc": [
+                    "ראשי", "כניסת משתמש", "שחזור סיסמא", "פרטי משתמש"
+                    ],
+                "client":["HTML", "CSS", "Bootstrap", "JavaScript"],
+                "server":["Node.js"],
+                "db":["MongoDB"],
+                "environment":["Visual Studio Code", "GitHub", "Heruko"],
+                "github":["https://github.com/Ofir22822/clientserverproject"]
+                }
+    ]
+}
