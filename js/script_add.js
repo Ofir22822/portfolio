@@ -3,7 +3,7 @@ var projects;
 $(document).ready(function () {
 
     //make project list for main page
-    $.getJSON("data.json", function (json) {
+    $.getJSON("data3.json", function (json) {
         projects = json.projects;   //project array from json file
 
         $.each(projects, function (project_index, project_i) {  //for each project
@@ -23,7 +23,7 @@ $(document).ready(function () {
             var project_div =
                 '<div class="col-lg-6">'
                 + '<a class="portfolio-item" href="#" onclick="set_modal_details(' + (project_index+1) + ');" data-toggle="modal" data-target="#exampleModal">'
-                + '<div class="caption-bg" style="background-image: url(\'img/' + project_i.imgs[0] + '\'); background-size: auto 100%; background-position: center;">'
+                + '<div class="caption-bg" style="height:45vh; background-image: url(\'img/' + project_i.imgs[0] + '\'); background-size: auto 100%; background-position: center;">'
                 + '<div class="caption">'
                 + '<div class="caption-content w-100">'
                 + '<div class="h2 text-center">' + project_i.name + '</div>'
